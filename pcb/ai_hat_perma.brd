@@ -157,22 +157,22 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="3" y1="0" x2="62" y2="0" width="0" layer="20"/>
-<wire x1="62" y1="0" x2="65" y2="3" width="0" layer="20" curve="90"/>
-<wire x1="65" y1="3" x2="65" y2="53" width="0" layer="20"/>
-<wire x1="65" y1="53" x2="62" y2="56" width="0" layer="20" curve="90"/>
-<wire x1="62" y1="56" x2="3" y2="56" width="0" layer="20"/>
-<wire x1="3" y1="56" x2="0" y2="53" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="53" x2="0" y2="37.5" width="0" layer="20"/>
-<wire x1="0" y1="37.5" x2="1" y2="36.5" width="0" layer="20" curve="90"/>
-<wire x1="1" y1="36.5" x2="4" y2="36.5" width="0" layer="20"/>
-<wire x1="4" y1="36.5" x2="5" y2="35.5" width="0" layer="20" curve="-90"/>
-<wire x1="5" y1="35.5" x2="5" y2="20.5" width="0" layer="20"/>
-<wire x1="5" y1="20.5" x2="4" y2="19.5" width="0" layer="20" curve="-90"/>
-<wire x1="4" y1="19.5" x2="1" y2="19.5" width="0" layer="20"/>
-<wire x1="1" y1="19.5" x2="0" y2="18.5" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="18.5" x2="0" y2="3" width="0" layer="20"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0.0254" layer="20" curve="90"/>
+<wire x1="3" y1="0" x2="62" y2="0" width="0.0254" layer="20"/>
+<wire x1="62" y1="0" x2="65" y2="3" width="0.0254" layer="20" curve="90"/>
+<wire x1="65" y1="3" x2="65" y2="53" width="0.0254" layer="20"/>
+<wire x1="65" y1="53" x2="62" y2="56" width="0.0254" layer="20" curve="90"/>
+<wire x1="62" y1="56" x2="3" y2="56" width="0.0254" layer="20"/>
+<wire x1="3" y1="56" x2="0" y2="53" width="0.0254" layer="20" curve="90"/>
+<wire x1="0" y1="53" x2="0" y2="37.5" width="0.0254" layer="20"/>
+<wire x1="0" y1="37.5" x2="1" y2="36.5" width="0.0254" layer="20" curve="90"/>
+<wire x1="1" y1="36.5" x2="4" y2="36.5" width="0.0254" layer="20"/>
+<wire x1="4" y1="36.5" x2="5" y2="35.5" width="0.0254" layer="20" curve="-90"/>
+<wire x1="5" y1="35.5" x2="5" y2="20.5" width="0.0254" layer="20"/>
+<wire x1="5" y1="20.5" x2="4" y2="19.5" width="0.0254" layer="20" curve="-90"/>
+<wire x1="4" y1="19.5" x2="1" y2="19.5" width="0.0254" layer="20"/>
+<wire x1="1" y1="19.5" x2="0" y2="18.5" width="0.0254" layer="20" curve="90"/>
+<wire x1="0" y1="18.5" x2="0" y2="3" width="0.0254" layer="20"/>
 <hole x="3.5" y="3.5" drill="2.8"/>
 <hole x="3.5" y="52.5" drill="2.8"/>
 <hole x="61.5" y="52.5" drill="2.8"/>
@@ -268,7 +268,7 @@
 <text x="55.499" y="13.843" size="1.27" layer="21" font="vector" ratio="10" rot="R90">+</text>
 <text x="55.499" y="9.906" size="1.27" layer="21" font="vector" ratio="10" rot="R90">-</text>
 <text x="55.372" y="11.684" size="1.016" layer="21" font="vector" ratio="10" rot="R90">DI</text>
-<text x="56.007" y="18.542" size="0.9144" layer="21" font="vector" ratio="10" rot="R180">CFG</text>
+<text x="53.594" y="18.034" size="0.9144" layer="21" font="vector" ratio="10" rot="R270">CFG</text>
 <text x="5.842" y="42.545" size="1.27" layer="21" font="vector" ratio="10" rot="R180">3V3</text>
 <text x="5.842" y="40.005" size="1.27" layer="21" font="vector" ratio="10" rot="R180">GND</text>
 <text x="11.176" y="3.175" size="1.27" layer="21" font="vector" ratio="10" rot="R180">GND</text>
@@ -1946,6 +1946,10 @@ design rules under a new name.</description>
 <approved hash="4,1,30529b1fa320301f"/>
 <approved hash="4,1,35839d90a5d13540"/>
 <approved hash="4,1,5d7ae467dda85d27"/>
+<approved hash="4,1,6b57e064dba56b14"/>
+<approved hash="4,1,3052ab3f9300301f"/>
+<approved hash="4,1,3583adb095f13540"/>
+<approved hash="4,1,5d7ad447ed885d27"/>
 </errors>
 </board>
 </drawing>
