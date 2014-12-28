@@ -12226,7 +12226,6 @@ This library includes digital and analog Integrated Circuits such as MCUs, shift
 <part name="U$7" library="Ai_Power" deviceset="3V3" device=""/>
 <part name="GND6" library="Ai_Power" deviceset="GND" device=""/>
 <part name="J19" library="Ai_Connectors" deviceset="JST-4P-MALE" device=""/>
-<part name="U$8" library="Ai_Power" deviceset="3V3" device=""/>
 <part name="GND7" library="Ai_Power" deviceset="GND" device=""/>
 <part name="R4" library="Ai_Passives" deviceset="RES" device="0603" value="300"/>
 <part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
@@ -12235,6 +12234,7 @@ This library includes digital and analog Integrated Circuits such as MCUs, shift
 </part>
 <part name="U$9" library="Ai_Miscellany" deviceset="AI-LOGO" device="XS"/>
 <part name="U$10" library="Ai_Miscellany" deviceset="AI-LOGO" device="XS"/>
+<part name="U$8" library="Ai_Power" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12545,13 +12545,13 @@ This library includes digital and analog Integrated Circuits such as MCUs, shift
 <instance part="U$7" gate="G$1" x="246.38" y="175.26" rot="MR0"/>
 <instance part="GND6" gate="GND" x="246.38" y="158.75" rot="MR0"/>
 <instance part="J19" gate="G$1" x="12.7" y="13.97" rot="R180"/>
-<instance part="U$8" gate="G$1" x="22.86" y="24.13"/>
 <instance part="GND7" gate="GND" x="22.86" y="5.08"/>
 <instance part="R4" gate="G$1" x="31.75" y="29.21" rot="R270"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U$9" gate="G$1" x="139.7" y="16.51"/>
 <instance part="U$10" gate="G$1" x="139.7" y="16.51"/>
+<instance part="U$8" gate="G$1" x="22.86" y="24.13"/>
 </instances>
 <busses>
 </busses>
@@ -12820,6 +12820,17 @@ This library includes digital and analog Integrated Circuits such as MCUs, shift
 <junction x="194.31" y="60.96"/>
 <pinref part="U$6" gate="G$1" pin="5V"/>
 </segment>
+<segment>
+<pinref part="J19" gate="G$1" pin="1"/>
+<wire x1="16.51" y1="19.05" x2="16.51" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="21.59" x2="22.86" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="21.59" x2="22.86" y2="24.13" width="0.1524" layer="91"/>
+<pinref part="J18" gate="G$1" pin="1"/>
+<wire x1="34.29" y1="19.05" x2="34.29" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="21.59" x2="34.29" y2="21.59" width="0.1524" layer="91"/>
+<junction x="22.86" y="21.59"/>
+<pinref part="U$8" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -12928,17 +12939,6 @@ This library includes digital and analog Integrated Circuits such as MCUs, shift
 <wire x1="246.38" y1="172.72" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 <junction x="243.84" y="172.72"/>
 <pinref part="U$7" gate="G$1" pin="3V3"/>
-</segment>
-<segment>
-<pinref part="J19" gate="G$1" pin="1"/>
-<wire x1="16.51" y1="19.05" x2="16.51" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="16.51" y1="21.59" x2="22.86" y2="21.59" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="3V3"/>
-<wire x1="22.86" y1="21.59" x2="22.86" y2="24.13" width="0.1524" layer="91"/>
-<pinref part="J18" gate="G$1" pin="1"/>
-<wire x1="34.29" y1="19.05" x2="34.29" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="21.59" x2="34.29" y2="21.59" width="0.1524" layer="91"/>
-<junction x="22.86" y="21.59"/>
 </segment>
 </net>
 <net name="ID_SC" class="0">
