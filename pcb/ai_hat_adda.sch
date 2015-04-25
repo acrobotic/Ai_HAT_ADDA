@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10897,8 +10897,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R6" library="Ai_Passives" deviceset="RES" device="0402" value="10K"/>
 <part name="J1" library="Ai_Connectors" deviceset="1X03" device="ST"/>
 <part name="J2" library="Ai_Connectors" deviceset="1X03" device="ST"/>
-<part name="J3" library="Ai_Connectors" deviceset="1X02" device="ST"/>
 <part name="J4" library="Ai_Connectors" deviceset="1X02" device="ST"/>
+<part name="J3" library="Ai_Connectors" deviceset="1X03" device="ST"/>
 </parts>
 <sheets>
 <sheet>
@@ -10979,8 +10979,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R6" gate="G$1" x="124.46" y="66.04" rot="R90"/>
 <instance part="J1" gate="G$1" x="63.5" y="162.56" rot="MR180"/>
 <instance part="J2" gate="G$1" x="63.5" y="149.86" rot="MR180"/>
+<instance part="J4" gate="G$1" x="63.5" y="121.92" rot="MR180"/>
 <instance part="J3" gate="G$1" x="63.5" y="135.89" rot="MR180"/>
-<instance part="J4" gate="G$1" x="63.5" y="124.46" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -11108,9 +11108,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="124.46" y1="58.42" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="138.43" x2="72.39" y2="138.43" width="0.1524" layer="91"/>
 <label x="72.39" y="138.43" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -11143,9 +11143,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="38.1" y="114.3"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="135.89" x2="72.39" y2="135.89" width="0.1524" layer="91"/>
 <label x="72.39" y="135.89" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -11217,6 +11217,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="165.1" y1="165.1" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
 <junction x="160.02" y="165.1"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="68.58" y1="133.35" x2="72.39" y2="133.35" width="0.1524" layer="91"/>
+<label x="72.39" y="133.35" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
 </net>
 <net name="ID_SC" class="0">
 <segment>
@@ -11278,8 +11283,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="71.12" y="124.46" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="68.58" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
+<label x="71.12" y="121.92" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -11310,8 +11315,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
-<label x="71.12" y="127" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="68.58" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
+<label x="71.12" y="124.46" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
