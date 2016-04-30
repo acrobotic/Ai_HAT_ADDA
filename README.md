@@ -1,6 +1,6 @@
 ## Ai\_HAT\_ADDA
 
-PCB design files (EAGLE) of a Raspberry Pi A+/B+/2 HAT with four 16-Bit Analog
+PCB design files (EAGLE) of a Raspberry Pi A+/B+/2/3 HAT with four 16-Bit Analog
 Inputs (ADS1115) and two 12-Bit Analog Outputs (MCP4725).
 
 ## Description
